@@ -1,7 +1,6 @@
 package decorator;
 
 public class Client {
-
     public static void main(String[] args) {
         TheGreatestSage sage = new Monkey();
         // 第一种写法
@@ -11,5 +10,4 @@ public class Client {
         //TheGreatestSage fish = new Fish(new Bird(sage));
         fish.move(); 
     }
-
 }
