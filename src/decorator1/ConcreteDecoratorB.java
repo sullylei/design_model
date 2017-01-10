@@ -16,3 +16,4 @@ public class ConcreteDecoratorB extends Decorator {
 		this.method2();
 	}
 }
+
