@@ -1,17 +1,16 @@
 package decorator1;
 
-public class Decorator extends Component {
-	private Component component;
+public abstract class Decorator extends Component {
+	private Component component = null;
 	
-	public Decorator(Component component){
-		this.component = component;
+	public Decorator(Component _component){
+		this.component = _component;
 	}
-	
+	//委托给被装饰者执行
 	@Override
-	public void report() {
+	public void operate() {
 		// TODO Auto-generated method stub
-		System.out.println("decorator report");
-		this.component.report();
+		this.component.operate();
 	}
 
 }

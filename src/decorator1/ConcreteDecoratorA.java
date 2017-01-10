@@ -7,9 +7,15 @@ public class ConcreteDecoratorA extends Decorator {
 		// TODO Auto-generated constructor stub
 	}
 	
+	//定义自己的修饰方法
+	private void method1(){
+		System.out.println("method1 修饰");
+	}
+	
 	@Override
-	public void report(){
+	public void operate(){
 		//添加业务代码
-		super.report();
+		this.method1();
+		super.operate();
 	}
 }
