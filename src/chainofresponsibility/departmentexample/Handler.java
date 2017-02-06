@@ -5,6 +5,7 @@ public abstract class Handler {
      * 持有下一个处理请求的对象
      */
 	protected Handler successor;
+	
 	protected void setSuccessor(Handler successor){
 		this.successor = successor;
 	}
