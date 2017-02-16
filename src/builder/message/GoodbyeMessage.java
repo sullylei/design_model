@@ -1,6 +1,5 @@
 package builder.message;
 
-
 public class GoodbyeMessage extends AutoMessage{
     /**
      * ¹¹Ôì×Ó

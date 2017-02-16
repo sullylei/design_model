@@ -8,7 +8,8 @@ public class Bird extends Change {
 
     @Override
     public void move() {
-        // ДњТы
+        super.move();
+    	// ДњТы
         System.out.println("Bird Move");
     }
 }

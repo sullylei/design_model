@@ -1,10 +1,11 @@
 package builder.message;
 
-
 public class WelcomeBuilder extends Builder {
+	
     public WelcomeBuilder(){
         msg = new WelcomeMessage();
     }
+    
     @Override
     public void buildBody() {
         // TODO Auto-generated method stub
@@ -16,5 +17,4 @@ public class WelcomeBuilder extends Builder {
         // TODO Auto-generated method stub
     	msg.setSubject("ª∂”≠±ÍÃ‚");
     }
-
 }

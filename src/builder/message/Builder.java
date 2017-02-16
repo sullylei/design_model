@@ -5,19 +5,19 @@ import java.util.Date;
 public abstract class Builder {
     protected AutoMessage msg;
     //标题零件的建造方法
- public abstract void buildSubject();
+    public abstract void buildSubject();
     //内容零件的建造方法
- public abstract void buildBody();
+    public abstract void buildBody();
     //收件人零件的建造方法
- public void buildTo(String to){
+    public void buildTo(String to){
         msg.setTo(to);
     }
     //发件人零件的建造方法
- public void buildFrom(String from){
+    public void buildFrom(String from){
         msg.setFrom(from);
     }
     //发送时间零件的建造方法
- public void buildSendDate(){
+    public void buildSendDate(){
         msg.setSendDate(new Date());
     }
     /**

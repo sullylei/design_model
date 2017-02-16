@@ -4,15 +4,15 @@ import java.util.Date;
 
 public abstract class AutoMessage {
     //收件人地址
- private String to;
+	private String to;
     //发件人地址
- private String from;
+	private String from;
     //标题
- private String subject;
+	private String subject;
     //内容
- private String body;
+	private String body;
     //发送日期
- private Date sendDate;
+	private Date sendDate;
     public void send(){
         System.out.println("收件人地址：" + to);
         System.out.println("发件人地址：" + from);

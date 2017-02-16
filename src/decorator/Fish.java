@@ -8,6 +8,7 @@ public class Fish extends Change {
 
     @Override
     public void move() {
+    	super.move();
         // ДњТы
         System.out.println("Fish Move");
     }
